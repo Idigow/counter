@@ -1,0 +1,76 @@
+*{
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap{
+    width: 700px;
+    margin: auto;
+}
+.main{
+    height: 100vh;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+}
+.menu a, .footer-menu a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer-menu a, .footer-txt{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+.footer-txt, .footer-menu li{
+    align-content: center;
+}
+.counter{
+    font-size: 200px;
+    color: #F27C0F;
+    text-align: center;
+    line-height: 340px;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+}
+.btn-blue{
+    background-color: #003399;
+    color: #fff;
+}
+.btn-orange{
+    background-color: #F27C0F;
+    margin: 0 55px;
+    color: #fff;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
